@@ -1,0 +1,29 @@
+.findus_section {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1135px) {
+  .findus_section {
+    gap: 2rem;
+  }
+  .app__wrapper_img img {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .findus_section {
+    flex-direction: column;
+  }
+
+  .app__wrapper_img img {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .app__wrapper_img img {
+    max-width: 70%;
+  }
+}
